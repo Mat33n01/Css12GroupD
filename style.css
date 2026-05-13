@@ -80,7 +80,7 @@ body{
   gap: 8px;
   background: var(--bg-two);
   color: var(--text-one);
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 900px;
   padding: 11px 24px;
   font-size: 0.85rem;
