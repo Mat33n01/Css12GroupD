@@ -88,12 +88,121 @@ body{
   cursor: pointer;
 }
 
+
+/*CART SECTION*/
+
 .cart {
   width: 380px;
   background: var(--bg-two);
   border-radius: 20px;
-  padding: 28px 24px 24px;
+  padding: 28px 24px;
   top: 40px;
-  height: 180px;
+  height: fit-content;
   margin-left: 40px;
+}
+
+.cart .your-cart{
+    color: var(--text-three-price);
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 0 0 20px 0;
+}
+
+.cart .food-ordered{
+    font-weight: 700;
+    font-size: 0.92rem;
+    color: var(--text-one);
+    margin: 14px 0 14px 0;
+}
+
+.cart .no-of-food-ordered{
+    display: inline;
+    color: var(--text-three-price);
+    font-weight: 700;
+    font-size: 0.85rem;
+    margin-right: 6px;
+}
+
+.cart span{
+    font-size: 0.82rem;
+    color: #555;
+    margin-right: 6px;
+}
+
+.cart .subtotal{
+    color: #444;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.cart hr{
+    border: none;
+    border-top: 1px solid #f0e8e4;
+    margin: 12px 0;
+}
+
+.cart p{
+    font-size: 0.88rem;
+    color: #555;
+    margin: 20px 0 4px 0;
+}
+
+.cart .total-price{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--text-one);
+    margin: 0 0 16px 0;
+    float: right;
+    margin-top: -2.4rem;
+}
+ 
+.cart .note{
+    background-color: var(--bg-one);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 0.82rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.note span{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-one);
+}
+
+.cart button.total{
+    width: 100%;
+    background-color: #c0390f;
+    color: var(--bg-two);
+    border: none;
+    border-radius: 999px;
+    padding: 16px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.cart button.total:hover{
+    background: #a02e0a;
+}
+
+.cancel-btn{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1.5px solid #ccc;
+    background-color: none;
+    color: var(--text-two);
+    font-size: 0.75rem;
+    cursor: pointer;
+    float: right;
+    margin-top: -1.5rem;
+}
+
+.cancel-btn:hover{
+    border-color: var(--text-one);
+    columns: var(--text-one);
 }
